@@ -1,6 +1,8 @@
-public class Ad {
+public class Ap {
     public static void main(String[] args) {
         System.out.println("****");
         System.out.println("***");
+        System.out.println("**");
+        System.out.println("*");
     }
 }
