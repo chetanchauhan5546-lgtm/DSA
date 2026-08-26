@@ -9,6 +9,7 @@ public class Gr {
         
         }else if(a<b){
             System.out.println("B is greater than A");        
+            
     }
 }
 }
