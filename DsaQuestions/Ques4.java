@@ -1,3 +1,4 @@
+// Give input and take output
 import java.util.Scanner;
 
 public class Ques4 {
@@ -8,8 +9,11 @@ public class Ques4 {
         for(int i=0;i<size;i++){
             numbers[i] = sc.nextInt();
         }
-        for(int i=0;i<size;i++){
-            System.out.println(numbers[i]);
+        int x = sc.nextInt();
+        for(int i=0;i<numbers.length;i++){
+            if(numbers[i]==x){
+              System.out.println("X is alive at index at : " + i);
+            }
         }
     }
 }
