@@ -3,6 +3,6 @@ public class Strin {
         String firstName = "Radha ";
         String secondName = " Krishna";
         String fullName = firstName + secondName;
-        System.out.println(fullName);
+        System.out.println(fullName.length());
     }
 }
