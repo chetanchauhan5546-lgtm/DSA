@@ -6,6 +6,9 @@ public class Append {
         sb.append("l");
         sb.append("o");
         
-    System.out.println(sb);
+    // System.out.println(sb);
+       System.out.println(sb.length());
+       
+
     }
 }
